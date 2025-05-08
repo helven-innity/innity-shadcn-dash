@@ -26,9 +26,9 @@ export function ProfileDropdown() {
       <DropdownMenuContent className='w-56' align='end' forceMount>
         <DropdownMenuLabel className='font-normal'>
           <div className='flex flex-col space-y-1'>
-            <p className='text-sm leading-none font-medium'>satnaing</p>
+            <p className='text-sm leading-none font-medium'>Administrator</p>
             <p className='text-muted-foreground text-xs leading-none'>
-              satnaingdev@gmail.com
+              admin@innity.com
             </p>
           </div>
         </DropdownMenuLabel>
@@ -40,19 +40,19 @@ export function ProfileDropdown() {
               <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
             </Link>
           </DropdownMenuItem>
-          <DropdownMenuItem asChild>
+          {/*<DropdownMenuItem asChild>
             <Link to='/settings'>
               Billing
               <DropdownMenuShortcut>⌘B</DropdownMenuShortcut>
             </Link>
-          </DropdownMenuItem>
+          </DropdownMenuItem>*/}
           <DropdownMenuItem asChild>
             <Link to='/settings'>
               Settings
               <DropdownMenuShortcut>⌘S</DropdownMenuShortcut>
             </Link>
           </DropdownMenuItem>
-          <DropdownMenuItem>New Team</DropdownMenuItem>
+          {/*<DropdownMenuItem>New Team</DropdownMenuItem>*/}
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
