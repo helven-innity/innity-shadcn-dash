@@ -1,20 +1,20 @@
-import { Button } from '@/components/ui/button'
+//import { Button } from '@/components/ui/button'
 import {
   Card,
   CardContent,
-  CardDescription,
+  //CardDescription,
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Header } from '@/components/layout/header'
 import { Main } from '@/components/layout/main'
-import { TopNav } from '@/components/layout/top-nav'
+//import { TopNav } from '@/components/layout/top-nav'
 import { ProfileDropdown } from '@/components/profile-dropdown'
 import { Search } from '@/components/search'
 import { ThemeSwitch } from '@/components/theme-switch'
 import { Overview } from './components/overview'
-import { RecentSales } from './components/recent-sales'
+//import { RecentSales } from './components/recent-sales'
 
 export default function Dashboard() {
   return (
@@ -183,29 +183,29 @@ export default function Dashboard() {
   )
 }
 
-const topNav = [
-  {
-    title: 'Overview',
-    href: 'dashboard/overview',
-    isActive: true,
-    disabled: false,
-  },
-  {
-    title: 'Customers',
-    href: 'dashboard/customers',
-    isActive: false,
-    disabled: true,
-  },
-  {
-    title: 'Products',
-    href: 'dashboard/products',
-    isActive: false,
-    disabled: true,
-  },
-  {
-    title: 'Settings',
-    href: 'dashboard/settings',
-    isActive: false,
-    disabled: true,
-  },
-]
+//const topNav = [
+//  {
+//    title: 'Overview',
+//    href: 'dashboard/overview',
+//    isActive: true,
+//    disabled: false,
+//  },
+//  {
+//    title: 'Customers',
+//    href: 'dashboard/customers',
+//    isActive: false,
+//    disabled: true,
+//  },
+//  {
+//    title: 'Products',
+//    href: 'dashboard/products',
+//    isActive: false,
+//    disabled: true,
+//  },
+//  {
+//    title: 'Settings',
+//    href: 'dashboard/settings',
+//    isActive: false,
+//    disabled: true,
+//  },
+//]
